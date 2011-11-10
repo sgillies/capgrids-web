@@ -1,0 +1,3 @@
+Options +MultiViews
+AddType text/html .html
+AddType text/turtle .ttl
