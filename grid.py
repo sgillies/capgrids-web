@@ -118,4 +118,7 @@ for mapnum, records in data.items():
     with open("htdocs/%s.ttl" % mapnum, "w") as f:
         f.write(g.serialize(format="turtle"))
 
+    with open("htdocs/%s.rdf" % mapnum, "w") as f:
+        f.write(g.serialize(format="pretty-xml"))
+
 
